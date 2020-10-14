@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+#luckynumber {
+    width: 400px;
+    margin: auto auto;
+    background: rgba(255, 0, 0, 0.712);
+}
+
+#header {
+    margin-top: 200px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#content {
+    background: rgb(0, 204, 255);
+    margin-top: 10px;
+}
+
+#p1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#p2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#one {
+    padding-bottom: 10px;
+}
+
+#input {
+    height: 30px;
+    width: 50%
+}
+
+#btn {
+    height: 30px;
+    background-color: rgba(107, 218, 42, 0.829);
+    width: 100px;
+}
+
+#ketqua {
+    background-color: yellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#end {
+    background-color: yellow;
+    font-size: larger;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+}
