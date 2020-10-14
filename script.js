@@ -89,6 +89,7 @@
             if(input_value<1 || input_value>10 || isNaN(input_value)){
                 alert("nhập lại số từ 1 đến 10")
                 document.getElementById("input").value = ""
+                document.getElementById("ketqua").textContent="KẾT QUẢ"
             }
 
             else{
@@ -105,7 +106,7 @@
             kiemtra = 0
         }
             document.getElementById("input").value = ""
-            console.log("kiemtra",kiemtra)
+            // console.log("kiemtra",kiemtra)
         }
         })
         
